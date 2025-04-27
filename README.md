@@ -25,6 +25,8 @@ docker rmi <id> -f
     - viittaukset ovat oletuksena immutable
 - crate on laajennus rustin koodiin
     - Cargo.toml tiedostossa on laajennuksille oma osuutensa
+- cargo.lock tiedosto ylläpitää alkuperäiset versiot millä koodi on kasattu. (Tärkeä viedä versiohallintaan)
+
 
 
 ### Muuttujat
