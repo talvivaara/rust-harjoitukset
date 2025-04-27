@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  rust:
+    image: rust:latest
+    container_name: rust_container
+    volumes:
+      - ../projects:/projects/
+    environment:
+      - USER=artturi
+    working_dir: /projects
