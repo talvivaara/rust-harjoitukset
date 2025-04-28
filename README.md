@@ -2,11 +2,11 @@
 Täytellään Rust harjoituksia projects/ kansion alle.
 
 ## Docker jutut
-cd rust-docker-setup
-docker system prune -f
-docker-compose up --build
-docker-compose run --rm rust 
-docker rmi <id> -f
+- cd rust-docker-setup
+- docker system prune -f
+- docker-compose up --build
+- docker-compose run --rm rust 
+- docker rmi <id> -f
 
 
 ### Muistiinpanot
