@@ -26,6 +26,7 @@ Täytellään Rust harjoituksia projects/ kansion alle.
 - crate on laajennus rustin koodiin
     - Cargo.toml tiedostossa on laajennuksille oma osuutensa
 - cargo.lock tiedosto ylläpitää alkuperäiset versiot millä koodi on kasattu. (Tärkeä viedä versiohallintaan)
+- cargo ilman .git tiedostoja "cargo new <projekti> --vcs none"
 
 
 
